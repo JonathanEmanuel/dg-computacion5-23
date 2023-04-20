@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500&display=swap');
+
+h1 {
+    color: rgb(57, 88, 182);
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+
+#header-contactos h1 {
+    color: slateblue;
+}
+
+#header-decoraciones h1 {
+    color: brown;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-indent: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #A1A2A6;
+}
+
+.texto-rojo {
+    color: tomato;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+}
+
+
+
+.nuevo-color {
+    color: black ;
+}
+
+
+
+#verde {
+    color: rgb(77, 134, 19);
+}
+
+footer p {
+    text-align: right;
+}
