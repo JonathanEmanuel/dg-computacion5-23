@@ -4,8 +4,9 @@
 - Position sticky
 - Position absolute
 - Position relative
+- Degradados
 
-![Captura](Captura.PNG)
+![Captura](Captura.png)
 
 ## Recursos
 - [Foto de Rostislav Uzunov de Pexels:](https://www.pexels.com/es-es/foto/arte-azul-purpura-abstracto-5011647/)
