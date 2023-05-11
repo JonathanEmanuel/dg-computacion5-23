@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h4,p,a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: rgb(36, 36, 36);
+    position: sticky;
+    top:0;
+    z-index: 3;
+    box-shadow: 0px 2px 5px #0000009c;
+
+}
+
+nav ul {
+    list-style: none;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin: 16px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: bisque;
+}
+
+header{ 
+    height: 320px;
+    text-align: center;
+    padding-top: 150px;
+    background: rgb(9,9,121);
+    background: linear-gradient(333deg, rgba(9,9,121,0.9920343137254902) 22%, rgba(145,0,255,1) 100%);
+}
+
+header h1 {
+    font-size: 64px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #0000009c;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px;
+    background-color: lightslategray;
+    border-radius: 50%;
+
+    position: absolute;
+    top:120px;
+    right: 16px;
+
+    border: 2px snow solid;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+section {
+    min-height: 400px;
+    background-color: rgb(250, 250, 250);
+    margin-top: 16px;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+#galeria {
+    background-color: rgb(146, 146, 252);
+
+}
+
+.card {
+    border: 2px solid  rgb(46, 46, 46);
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 16px;
+
+    position: relative;
+
+    box-shadow: 2px 2px 5px #0000009c;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.card p {
+    padding: 16px;
+}
+
+.card h4 {
+    background-color: rgba(255, 0, 0, 0.511);
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
